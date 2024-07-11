@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  color: #b52184;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+p {
+  color: #312d64;
+
+  text-align: center;
+
+  font-family: Mulish;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 3.5rem;
+}
+
+.luas {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  margin-top: 9.3rem;
+  padding: 5.2rem 4rem;
+  width: 43rem;
+  box-sizing: content-box;
+}
+
+.lua {
+  border-radius: 2rem;
+  background: #fff;
+  box-shadow: 0rem 4rem 15rem 0rem rgba(0, 0, 0, 0.25);
+  width: 35rem;
+
+  margin-bottom: 5rem;
+}
+
+.lua img {
+  width: 8rem;
+  height: 8rem;
+  margin-top: 2.6rem;
+  margin-left: 2.6rem;
+}
+
+.lua h1 {
+  color: #b52184;
+
+  text-align: start;
+  font-family: Mulish;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  margin-top: 2rem;
+  margin-bottom: 2.6rem;
+  padding-left: 2.6rem;
+  padding-right: 5rem;
+}
+
+.lua p {
+  color: #312d64;
+
+  text-align: start;
+
+  font-family: Mulish;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 3.5rem;
+  padding-left: 2.6rem;
+  padding-right: 5rem;
+  padding-bottom: 2.6rem;
+}
+
+form {
+  width: 43rem;
+  height: 56rem;
+  flex-direction: column;
+  display: flex;
+}
+
+h2 {
+  color: #b52184;
+
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  margin-left: 4.3rem;
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+}
+
+footer {
+  display: flex;
+  width: 43rem;
+  height: 8rem;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+
+  color: #fff;
+
+  font-family: Mulish;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.texto {
+  width: 35rem;
+  height: 10rem;
+  padding: 0rem 1.6rem 6rem 1.6rem;
+  border-radius: 1.6rem;
+  border: 1.5px solid #312d64;
+  margin-left: 4.3rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+button {
+  display: inline-flex;
+  width: 18rem;
+  height: 4.5rem;
+  padding: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  margin-left: 4.3rem;
+  margin-top: 3rem;
+
+  border-radius: 1.6rem;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+
+  color: var(--Neutral-Colors-White, #fff);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+}
+
+.avatar-input {
+  background-image: url("./src/person.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+
+  width: 35rem;
+  padding: 1.2rem 1.6rem 1.6rem 5rem;
+
+  border-radius: 1.6rem;
+  border: 1.5px solid #312d64;
+
+  margin-left: 4.3rem;
+  margin-bottom: 3rem;
+}
+
+.email-input {
+  background-image: url("./src/email.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+
+  width: 35rem;
+  padding: 1.2rem 1.6rem 1.6rem 5rem;
+
+  border-radius: 1.6rem;
+  border: 1.5px solid #312d64;
+
+  margin-left: 4.3rem;
+  margin-bottom: 3rem;
+}
+.contato img {
+  display: none;
+}
+
+@media (min-width: 790px) {
+  header {
+    height: 836px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .astronauta {
+    padding-top: 312px;
+    padding-left: 109px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .astronauta h1 {
+    font-size: 58.287px;
+  }
+  .astronauta p {
+    font-size: 32px;
+    text-align: start;
+    margin-bottom: 180px;
+  }
+  .clips {
+    width: 58.587px;
+    height: 105px;
+    flex-shrink: 0;
+  }
+  .astronauta-img {
+    width: 719px;
+    height: 732px;
+  }
+
+  .luas {
+    display: flex;
+    width: 168rem;
+    height: 500px;
+    justify-content: space-evenly;
+
+    padding: 64px 111px;
+  }
+
+  .lua {
+    display: flex;
+    width: 366px;
+    height: 480px;
+
+    flex-direction: column;
+  }
+  .lua img {
+    width: 97px;
+    height: 97px;
+  }
+  .lua h1 {
+    font-size: 35px;
+  }
+  .lua p {
+    font-size: 20px;
+  }
+
+  footer {
+    display: flex;
+    width: 190.08rem;
+    height: 80px;
+
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  h2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: 195px;
+    margin-bottom: none;
+
+    font-size: 42px;
+  }
+  .avatar-input {
+    display: flex;
+    width: 600px;
+    padding: 1.2rem 1.6rem 1.6rem 5rem;
+    align-items: center;
+    gap: 12px;
+
+    margin-left: 220px;
+    margin-top: none;
+  }
+  .email-input {
+    display: inline-flex;
+    width: 600px;
+    padding: 1.2rem 1.6rem 1.6rem 5rem;
+
+    gap: 12px;
+
+    margin-left: 220px;
+    margin-top: none;
+  }
+  .texto {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    padding: 0rem 1.6rem 10rem 1.6rem;
+
+    margin-left: 220px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  button {
+    height: 45px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    margin-left: 220px;
+  }
+
+  form {
+    width: 100%;
+  }
+  .contato {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contato img {
+    display: block;
+  }
+}
